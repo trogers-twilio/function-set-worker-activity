@@ -1,0 +1,23 @@
+{
+  "name": "function-set-worker-activity",
+  "version": "1.0.0",
+  "description": "Twilio Function that sets a workers activity based on input parameters. Includes rejecting pending reservations as an option.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trogers-twilio/function-set-worker-activity.git"
+  },
+  "author": "Terence Rogers (Twilio)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trogers-twilio/function-set-worker-activity/issues"
+  },
+  "homepage": "https://github.com/trogers-twilio/function-set-worker-activity#readme",
+  "dependencies": {
+    "js-base64": "^2.5.1",
+    "request": "^2.88.0"
+  }
+}
